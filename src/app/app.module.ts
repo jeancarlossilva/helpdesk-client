@@ -1,3 +1,4 @@
+import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -30,7 +31,6 @@ import { MatCardModule } from '@angular/material/card';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
-import { TecnicoListComponent } from './components/tecnico-list/tecnico-list.component';
 
 @NgModule({
   declarations: [
