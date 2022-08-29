@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { AuthService } from './../../services/auth.service';
 import { Credencias } from './../../models/credencias';
 import { Component, OnInit } from '@angular/core';
@@ -21,7 +22,8 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private toast: ToastrService,
-    private service: AuthService
+    private service: AuthService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
